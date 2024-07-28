@@ -1,4 +1,4 @@
-# Cataract Detection
+# Cataract Detection Project
 
 This project aims to detect cataracts using various deep learning models, including RNN, CNN, and VGG16, and provides a user-friendly interface for easy image classification.
 
@@ -33,16 +33,21 @@ This project aims to detect cataracts using various deep learning models, includ
      - Supports multiple models (CNN, RNN, VGG16) and provides the most confident prediction.
    - **Models:** Loads pre-trained models for making predictions on uploaded images.
 
+## Dataset
+
+- **Location:** The dataset is available on [Google Drive](https://drive.google.com/drive/folders/1C77RkpXW6JdAzEj6b5IISVBdDaDrlyoT?usp=sharing).
+- **Structure:** Ensure the dataset is structured as follows:
+  ```
+  Merged Dataset/
+  ├── Train/
+  ├── Val/
+  └── Test/
+  ```
+
 ## How to Use
 
 1. **Data Preparation:**
-   - Ensure the dataset is structured as follows:
-     ```
-     Merged Dataset/
-     ├── Train/
-     ├── Val/
-     └── Test/
-     ```
+   - Download the dataset from the provided link and ensure it follows the specified structure.
    - Update paths in each notebook to point to your dataset location.
 
 2. **Model Training:**
